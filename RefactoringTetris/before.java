@@ -1,5 +1,7 @@
-import javax.swing.*; import java.awt.*;
-import java.awt.event.*; import java.util.Random;
+import javax.swing.*; 
+import java.awt.*;
+import java.awt.event.*; 
+import java.util.Random;
 public class Tetris extends JFrame { public Tetris() {
 JLabel statusbar = new JLabel(" 0"); Board board = new Board(statusbar);
 add(statusbar, BorderLayout.SOUTH); add(board);
